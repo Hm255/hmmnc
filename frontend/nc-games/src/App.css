@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+  background-color: beige;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title{
+  font-size: 24px;
+  color: dodgerblue;
+}
+.category{
+  font-size: 24px;
+  color: red;
+}
+
+.reviews{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: mediumturquoise;
+  width: 25%;
+  margin: auto;
+}
+.votes{
+  font-size: 24px;
+  text-decoration: solid;
+  color: chartreuse;
+}
+
+.categoryName{
+  font-size: 20px;
+  color: darkred;
+}
+
+.catName{
+  font-size: 24px;
+  color: darkolivegreen;
+}
+
+.categoryDesc{
+  font-size: 18px;
+  color: rgb(59, 43, 3);
+}
+
+.catName{
+  font-size: 20px;
+  color: darkslateblue;
+}
+
+.categories{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: mediumturquoise;
+  width: 25%;
+  margin: auto;
+}
+
+.review{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: mediumturquoise;
+  width: 25%;
+  margin: auto;
+}
+
+img{
+ max-width: 35%;
+ max-height: 35%;
+}
+
+.title{
+  font-size: 20px;
+  color: darkslateblue;
+}
+.owner{
+  font-size: 20px;
+  color: #065535;
+}
+.uploaded{
+  font-size: 20px;
+  color: #093380;
+}
+
+.image{
+  font-size: 20px;
+  color: #093244;
+}
+.designer{
+  font-size: 20px;
+  color: darkslateblue;
+}
+.category{
+  font-size: 20px;
+  color: #283452;
+}
+.votes{
+  font-size: 20px;
+  color: #900000;
+}
+.revBody{
+  font-size: 20px;
+  color: #623430;
+}
+
+/* .categoryButton{
+  background-color: green;
+} */
